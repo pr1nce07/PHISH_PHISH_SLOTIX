@@ -2,7 +2,7 @@
 
 A web application in which a timetable coordinator enters teaching requirements, rooms, faculty
 availability and working hours, and a constraint solver (Google OR-Tools CP-SAT) produces a valid
-weekly timetable - or explains, with evidence, why none exists.
+weekly timetable - or explains, with evidence, why none exists aimed to streamline the academic calendar integration for faculty, coordinator and students.
 
 ## Architecture
 
