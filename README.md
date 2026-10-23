@@ -9,7 +9,7 @@ weekly timetable - or explains, with evidence, why none exists.
 | Layer | Choice | Notes |
 |---|---|---|
 | API | FastAPI + Pydantic 2 | `app/api_admin.py` (admin only), `app/api_public.py` (auth, faculty, student) |
-| Database | **SQLite** via SQLAlchemy 2 + Alembic | foreign keys ON, WAL, check/unique constraints, triggers |
+| Database | **SQLite**  via SQLAlchemy 2 + Alembic | foreign keys ON, WAL, check/unique constraints, triggers |
 | Solver | OR-Tools CP-SAT 9.15 | `app/solver/engine.py`; rules in `rules.py`; preflight + diagnostics in `preflight.py` |
 | Independent auditor | plain Python | `app/solver/auditor.py` re-checks every saved timetable without the solver |
 | Jobs | in-process worker thread | runs are queued, persisted and cancellable (`app/services.py`) |
