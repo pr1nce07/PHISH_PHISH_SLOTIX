@@ -87,7 +87,7 @@ they are unreachable. Set `TT_ORG_NAME` to show your school's name under the pro
 * A batch is a `student_groups` row whose `parent_group_id` is its class. Overlap checks follow the
   whole ancestor chain, so nested batches are handled.
 
-## How generation works
+## How generation works:
 
 1. **Preflight** (`preflight.py`) - deterministic checks: missing assignments, no suitable room,
    capacity, no consecutive block, faculty availability versus required periods, workload caps,
